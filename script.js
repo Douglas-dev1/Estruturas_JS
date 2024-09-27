@@ -25,10 +25,10 @@ console.log(valorA, valorB);
 console.log(resAB);
 
 if (!restoAB) {
-    mensagem = "O numero é par!";
+    mensagem = `O numero ${resAB} é impar`;
 }
 else {
-    mensagem = "O numero é ímpar!";
+    mensagem = `O numero ${resAB} é impar`;
 }
 
 const percentual = (valorA * 0.10) / 2;
